@@ -1,9 +1,9 @@
 # rby-springboo3-microservices
 
-Multi Microservices Communications Implementation
+Multiple microservices communications implementation using speing boot 3.
 
 
-##Tech Stack
+## Tech Stack
 - Spring Boot 3
 - Apache Kafka
 - RabbitMQ
@@ -17,6 +17,6 @@ Multi Microservices Communications Implementation
 - Grafana
 
 
-## Additional
+### Additional
 - Comprehensive unit testing
 - AOT (Ahead of Time Compilation)
