@@ -35,6 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-# ML-3...
-*.log
