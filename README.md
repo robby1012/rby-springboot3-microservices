@@ -1,6 +1,6 @@
-# rby-springboo3-microservices
+# rby-springboot3-microservices
 
-Multiple microservices communications implementation using speing boot 3.
+Multiple microservices communications implementation using spring boot 3.
 
 
 ## Requirement
