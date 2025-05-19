@@ -31,8 +31,9 @@ sudo install istio-1.17.0/bin/istioctl /usr/local/bin/istioctl
 rm -r istio-1.17.0
 `
 
-```
+
 ## Verify Installation
+```
 git version && \
 docker version -f json | jq -r .Client.Version && \
 java -version 2>&1 | grep "openjdk version" && \
