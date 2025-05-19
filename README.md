@@ -20,3 +20,7 @@ Multiple microservices communications implementation using speing boot 3.
 ### Additional
 - Comprehensive unit testing
 - AOT (Ahead of Time Compilation)
+
+### RUN
+- ` docker compose up `
+- ` docker compose build `
