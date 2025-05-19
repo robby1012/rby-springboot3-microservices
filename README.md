@@ -32,7 +32,7 @@ rm -r istio-1.17.0
 `
 
 ## Verify Installation
-``
+
 git version && \
 
 docker version -f json | jq -r .Client.Version && \
@@ -54,7 +54,6 @@ kubectl version --client -o json | jq -r .clientVersion.gitVersion && \
 minikube version | grep "minikube" && \
 
 istioctl version --remote=false
-``
 
 
 ### RUN
