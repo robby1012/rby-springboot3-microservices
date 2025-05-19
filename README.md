@@ -31,30 +31,20 @@ sudo install istio-1.17.0/bin/istioctl /usr/local/bin/istioctl
 rm -r istio-1.17.0
 `
 
+```
 ## Verify Installation
-
 git version && \
-
 docker version -f json | jq -r .Client.Version && \
-
 java -version 2>&1 | grep "openjdk version" && \
-
 curl --version | grep "curl" | sed 's/(.*//' && \
-
 jq --version && \
-
 spring --version && \
-
 siege --version 2>&1 | grep SIEGE && \
-
 helm version --short && \
-
 kubectl version --client -o json | jq -r .clientVersion.gitVersion && \
-
 minikube version | grep "minikube" && \
-
 istioctl version --remote=false
-
+```
 
 ### RUN
 - ` docker compose up `
